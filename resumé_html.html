@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resumé du cours</title>
+</head>
+<body background="https://raw.githubusercontent.com/AymanBenAmor/css_resume/main/bgrours.jpg" style="width: auto;">
+    <div>
+        <div class="page" style="background-color: rgba(154, 224, 217, 0.258); margin: 30px 300px 30px 300px; overflow: scroll;  height:700px; border-radius: 2%;box-shadow: 5px 5px 4px 3px rgb(125, 114, 114,0.5);">
+            <div class="title" style="text-align: center">
+                <h1 style="color: rgb(157, 16, 16);"><B><U>INTRODUCTION AU HTML</U> </B></h1>
+            </div>
+            
+            <div class="contenu">
+                <h2 style="color: rgb(25, 16, 153); padding-left: 15px;">Définition :</h2>
+                <p>Un document hypertexte (HTML) n'est rien d'autre qu'un fichier de texte, portant l'extension ".HTML", et dans lequel apparaissent des Balises. Ces balises ont pour but de définir la structure du document: telle partie correspond à un titre, telle autre correspond à une image... Le langage HTML est ensuite interprété par un logiciel dit de navigation (navigateur, ou butineur, ou browser...)</p>
+
+                <h2 style="color: rgb(25, 16, 153); padding-left: 15px;">Structures d'un document HTML :</h2>
+                <h4 style="padding-left: 30px;">* Balises :</h4>
+                <p> < HTML > : balise de début de document HTML </p>
+                <p> < HEAD > : balise de début de l'en-tête (contenu de l'en-tête)</p>
+                <p> < /HEAD > : balise de fin de l'en-tête </p>
+                <p> < BODY > :  balise de début du corps (contenu du corps)</p>
+                <p> < /BODY > : balise de fin du corps</p>
+                <p> < /HTML > : balise de fin de document HTML</p>
+
+                <h4 style="padding-left: 30px;">* Attributs :</h4>
+                <p> - A chaque balise sont associés un certain nombre d'attributs, qui caractérisent les propriétés de cette balise. 
+                    <br>
+                    - Jusqu'ici, une balise servait à rendre un seul effet (par exemple, la balise B mettait en gras). 
+                    <br>
+                    - La majorité des balises HTML sont en fait capables de régler plusieurs effets à elles-seules.
+                    </p>
+
+                <h2 style="color: rgb(25, 16, 153); padding-left: 15px;">Mise en page</h2>
+                <p>* La balise <B>< HR ></B> permet de tracer une séparation horizontale. <br>* La balise <B> < BR ></B>  permet de passer à la ligne.
+                    <br>* La balise <B>< P ></B> permet de mettre en forme un paragraphe. <br>* Les balises <B>< H1 >..< H6 ></B> permettent de définir des niveaux de titre, du plus grand (niveau 1) aux titres de niveaux inférieurs (niveaux 2 à 6). 
+                    <br>* La balise <B>< FONT ></B> permet de choisir la police de caractères du texte.  
+                </p>
+                
+                <h2 style="color: rgb(25, 16, 153); padding-left: 15px;">Mise en forme de text :</h2>
+                <div class="image" style="text-align: center;">
+                    <img src="https://raw.githubusercontent.com/AymanBenAmor/photos/main/Image%20mise%20en%20forme.png">
+                </div>
+                <h2 style="color: rgb(25, 16, 153); padding-left: 15px;">Lien et hypertexte :</h2>
+                <h4 style="padding-left: 30px;">* La balise A :</h4>
+                <p>Dans le code HTML, un lien apparaît donc de la manière suivante: <br> <B>Code HTML:</B>  Pour aller sur Nomade cliquer < A href="http://www.nomade.fr" >ici< /A >· <br> <B>Allure de la page Web:</B>  Pour aller sur Nomade cliquer <U>ici</U> .</p>
+                
+                <h2 style="color: rgb(25, 16, 153); padding-left: 15px;">Tableaux :</h2>
+                <p>-L'insertion d'un tableau se fait à l'aide de la balise < TABLE >. La balise de fin est obligatoire. </p>
+                <p>-La balise CAPTION permet de donner une légende à un tableau.
+                    Son attribut est ALIGN=top|bottom, suivant que l'on voudra placer la légende au-dessus ou en-dessous du tableau. La balise de fin est obligatoire. 
+                    <br> A l'intérieur de la balise TABLE, un élément < TR >... < /TR > (Table Row) définit une ligne. <br>
+                     A l'intérieur de la balise TR, un élément < TD >...< /TD > (Table Data) définit une colonne (i.e. une cellule). <br> 
+                     Lorsque ces cellules sont celles de la première ligne, il est possible de remplacer la balise < TD >...< /TD > par
+                      < TH >...< /TH > (Table Header): le contenu de la cellule sera alors mis en gras.
+                 </p>
+                
+                <p> Ainsi, le code correspondant à un tableau 2 lignes-3 colonnes sera donc : <br> < TABLE > <br> < TR > <br> < TD > contenu de ligne 1,
+                         colonne 1 <br> < TD > contenu de ligne 1, colonne 2 <br> < TD > contenu de ligne 1, colonne 3 <br> < /TR > <br> < TR > <br> < TD >contenu de ligne 2, colonne 1 <br>
+                         < TD >contenu de ligne 2, colonne 2 <br> < TD > contenu de ligne 2, colonne 3 <br> < /TR > <br> < /TABLE > 
+                </p>
+
+                <h2 style="color: rgb(25, 16, 153); padding-left: 15px;">Images :</h2>
+                <p>-L'insertion d'une image se fait à l'aide de la balise < IMG >. La balise de fin est interdite. <br> 
+                    Les attributs de cette balise sont donnés dans le tableau suivant:
+                </p>
+                <div class="image1" style="text-align: center;">
+                    <img src="https://raw.githubusercontent.com/AymanBenAmor/photos/main/Image%20image.png">
+                </div>
+                <h2 style="color: rgb(25, 16, 153); padding-left: 15px;">Listes :</h2>
+                <h4 style="padding-left: 30px;">* Listes ordonnés :</h4>
+                <p>-La balise permettant d'écrire une liste est la balise < OL > (O pour "ordered") (balise de fin obligatoire). <br>
+                A l'intérieur des balises ouvrante et fermante, chaque élément (item) de la liste commence par une balise < LI > (balise de fin optionnelle). <br>
+                La structure HTML d'une liste ordonnée est donc la suivante: <br>
+                    < OL TYPE="valeur" > <br>
+                    < LI > un élément de la liste <br>
+                    < LI > un autre élément de la liste <br>
+                    < /OL >
+                </p>
+                <h4 style="padding-left: 30px;">* Listes non ordonnés :</h4>
+                <p>
+                    -Le principe est le même que les listes ordonnées;
+                    la balise permettant d'écrire une liste nonordonnée est la balise < U L> (U pour "Unordered") (balise de fin obligatoire).
+                    Dans ce type de liste, les items de liste ne sont plus numérotés. 
+                    Ils sont précédés d'un symbole, défini par l'attribut TYPE de la balise UL.
+                </p>
+
+                <h2 style="color: rgb(25, 16, 153); padding-left: 15px;">Réglage stylistique :</h2>
+                <p>
+                    - Pour mettre en forme le contenu des éléments HTML on utilise le <b>CSS</b> qui s'occupent aussi de la mise en page des sites web. <br>
+                    Pour apprendre le CSS cliquer sur le button ci-dessous :
+                </p>
+                <div style="text-align: center;">
+                    <a href="E:\web\cours html-css\resume_css.html">
+                        <button class="buttonhref" type="button" style="background-color: rgba(255, 178, 178, 0.478);border-color: rgb(171, 39, 39);color: rgb(171, 39, 39);"><H1> LEARN CSS</H1></button>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
